@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    
+<link rel = "stylesheet" href = "styles_master.css">
+
+<div class="loader">
+    <h1>Loading...</h1>
+</div>
+
+<head>
+    <meta charset = "utf-8" />
+
+    <title>
+        Page Title
+    </title>
+    <link href = "https://fonts.googleapis.com/css?family=Vollkorn" rel = "stylesheet">
+    <link rel = "stylesheet" href = "styles_get_a_grip.css">
+
+</head>
+
+<body>
+    <div class = "container">
+        <div class = "nav_bar">
+            <div class = "left_side">
+                <div class = "nav_bar_left_link">
+                    <a href = "index.html">
+                        Home
+                    </a>
+                </div>
+
+                <div class="nav_bar_left_link nav_active">
+                    <a href = "about.html">
+                        About Me
+                    </a>
+                </div>
+
+                <div class="nav_bar_left_link">
+                    <a href = "work_experience.html">
+                        Work/Volunteer Experience
+                        <div class="dropdown_content">
+                            <a href = "walmart.html">
+                                <p>Walmart</p>
+                            </a>
+
+                            <a href = "coop.html">
+                                <p>Co-op</p>
+                            </a>
+
+                            <a href = "360_kids.html">
+                                <p>360 Kids</p>
+                            </a>
+
+                            <a href = "yamato.html">
+                                <p>Yamato Sushi</p>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="right_side">
+                <div class="nav_bar_right_name">
+                    <div>
+                        Ahren Chen
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="banner">
+                <div class="banner_block">
+                    <div class="banner_image" style = background-image:url(Images/Robot_arm_banner.jpg)>
+                    </div>
+                </div>
+            </div>
+
+            <div class="robot_arm_title">
+                <div class="robot_arm_title_block">
+                    <h1>Get a Grip!</h1>
+                </div>
+            </div>
+
+            <div class="two_column_page">
+                <div class="grip_p_skills_tech">
+                    <h3>Applicable Technical Skills</h3>
+                    <p>• Autodesk Inventor</p>
+                    <p>• Microsoft Office</p>
+                    <p>• Python 3.8</p>
+                    <p>• Prusa Slicer</p>
+                    <p>• Quanser Interactive Labs</p>
+                </div>
+
+                <div class="grip_p_skills_soft">
+                    <h3>Applicable Soft Skills</h3>
+                    <p>• Teamwork</p>
+                    <p>• Communication Skills</p>
+                    <p>• Time Management</p>
+                    <p>• Problem Solving</p>
+                </div>
+            </div>
+
+            <div class="two_column_page">
+                <div class="summary">
+                    <h3>Summary</h3>
+                    <p>Our team was entrusted with designing a process to sterilize a surgical tool by putting it into a container and using a mechanical arm to transport it. To efficiently accomplish this task, we split into two teams; one was responsible for creating a solid model of the container, and the other was in charge of writing the python code for the robotic arm. I was a part of the modeling team, and my objectives included minimizing material usage, securing the surgical tool, and facilitating sterilization.</p>
+
+                </div>
+                <div class="summary_image">
+                    <img src = "Images/robot_summary.png" alt = ""
+                        width = 50%>
+                </div>
+            </div>
+
+            <div class="design_process">
+                <h3>Design Process</h3>
+
+                <p>As part of the modeling team, I first created a set of objectives and features that I should be aware of when designing my container. The container needed to be picked up by the robot gripped, therefore requiring a rectangular shape. The container also had to sustain steam sterilization while being under 350 grams in weight. Our team was given an inventor model of the surgical tool to secure and the autoclave our container needed to fit into.</p>
+                
+                <div class="two_column_page_get_a_grip">
+                    <div class="surgical_tool">
+                        <div class="design_image">
+                            <img src = "Images/surgical_tool.png" alt = ""
+                                width = 71%>
+                        </div>
+        
+                        <div class="caption">
+                            <p>Surgical Tool</p>
+                        </div>
+                    </div>
+
+                    <div class="autoclave">
+                        <div class="design_image">
+                            <img src = "Images/autoclave.png" alt = ""
+                                width = 55%>
+                        </div>
+        
+                        <div class="caption">
+                            <p>Autoclave</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Once a set of objectives, constraints, and functions were fully defined, I created multiple prototypes while integrating each feature one at a time. These prototypes varied from low-fidelity physical models to fully realized models made in Autodesk with proper dimensions.</p>
+                
+                <div class="two_column_page_get_a_grip">
+                    <div class="physical_low_fidelity">
+                        <div class="design_image">
+                            <img src = "Images/physical_low_fidelity.png" alt = ""
+                                width = 65%>
+                        </div>
+        
+                        <div class="caption">
+                            <p>Physical Low-Fidelity Model</p>
+                        </div>
+                    </div>
+
+                    <div class="finalized_inventor_design">
+                        <div class="design_image">
+                            <img src = "Images/robot_finalized_inventor.png" alt = ""
+                                width = 76%>
+                        </div>
+        
+                        <div class="caption">
+                            <p>Finalized Design in Inventor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>The purpose of the indented walls on either side of my model was to increase the ease with which it could be picked up. This extra feature would ensure that the transportation of the container would be smooth and indicates where the gripper is supposed to grab. To secure the surgical tool during transportation, I chose to add cylinders to insert into the openings of the surgical tool. Lastly, to facilitate sterilization, I chose for my model to have an open-top and numerous holes for the steam to enter and pass through. As my final model was finalized, I got the Gcode using PrusaSlicer to print a high-fidelity physical version of the model.</p>
+            
+                <div class="design_image">
+                    <img src = "Images/3D_printed_model.png" alt = ""
+                        width = 50%>
+                </div>
+
+                <div class="caption">
+                    <p>3D Printed Physical Model</p>
+                </div>
+            </div>
+            
+            <div class="conclusion">
+                <h3>Conclusion</h3>
+
+                <p>This project expanded my horizon on a new modeling technique using 3D printing. Since I had to review and revise my model several times before creating the final version, I developed a better grasp of the engineering method. I faced many challenges during this project, mainly having to remake my model over a dozen times to accommodate all restrictions while thinking about minimizing material usage. One example would be when generating the Gcode to print my model, the maximum print time is 2 hours, and my model went over the limit by 5 minutes. To solve this issue, I poured through all features of my model to see what is minimizable, and I realized the height of the model could be decreased and cut the time nearly in half. Overall this assignment was a valuable learning opportunity for 3D printing and simulates the trial and error process of the engineering process.</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
