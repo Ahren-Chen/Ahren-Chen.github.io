@@ -1,3 +1,6 @@
+**NOTE:
+The current website is under renovation as of Jan 1 2024, and will be back up soon.**
+
 This is my own personal website that I made using HTML, CSS, and Javascript. It currently holds most of 
 my experiences and projects up until now. I am planning to continue updating this as I create new projects.
 
