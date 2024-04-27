@@ -25,7 +25,7 @@
       $route: {
         immediate: true,
         handler(to) {
-          document.title = to.meta.title || "Sumobot";
+          document.title = to.meta.title || "Ahren Chen";
         },
       },
     },

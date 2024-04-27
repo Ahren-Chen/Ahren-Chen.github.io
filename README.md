@@ -6,7 +6,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 
 | Feature # | Description | Progress |
 | :-:       |---          |:-:       |
-| 1 | Set up basic home page | In progress |
+| 1 | Set up basic home page | Done |
 | 2 | Set up templates for other pages/components | In progress |
 | 3 | Set up navigation between pages using navigation bar | Not started |
 | 4 | Set up navigation between pages using page specific buttons | Not started |

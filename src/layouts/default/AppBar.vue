@@ -3,7 +3,7 @@
     <v-app-bar-title class="align-center text-center">
       <v-icon icon="mdi-circle-slice-4" />
 
-      Base Preset
+      Ahren Chen's Website
 
     </v-app-bar-title>
 
