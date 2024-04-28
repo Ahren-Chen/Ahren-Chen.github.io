@@ -13,7 +13,11 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | 5 | Fill in content for Home Page | Not started |
 | 6 | Fill in information for About Page | Not started |
 | 7 | Fill in information about experience | Not started |
-| 8 | Flesh things out and make look decent | Not started 
+| 8 | Flesh things out and make look decent | Not started |
+
+## Logbook
+- April 27: Finished setting up the basic home page and listed features that are in plan
+- April 28: Wanted to finish Feature 2 and get templates up for other pages (About me, experience template, project templates, etc) but only got the template for About Me up and running.
 
 ## Project setup
 
@@ -82,3 +86,8 @@ bun run lint
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+
+## Logos/Images
+
+Disclaimer:
+All images were either taken from unsplash.com, official vuetify icons, or taken by ourselves to display our projects.

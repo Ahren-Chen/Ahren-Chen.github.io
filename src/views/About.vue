@@ -1,17 +1,10 @@
 <template>
+    <AboutPage />
     <HelloWorld />
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
+
 </template>
   
 <script setup>
-    import HelloWorld from '@/components/HelloWorld.vue'
+    import AboutPage from '@/components/AboutPage.vue'
+    import HelloWorld from '@/components/HelloWorld.vue';
 </script>
