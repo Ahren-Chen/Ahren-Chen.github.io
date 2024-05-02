@@ -32,6 +32,21 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/projects/wind_turbine",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Wind Turbine',
+        meta: { title: "Wind Turbine - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/Wind_Turbine.vue"),
+      },
+    ],
+  }
 ]
 
 const router = createRouter({
