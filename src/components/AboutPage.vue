@@ -48,8 +48,22 @@
                         </v-col>
                     </v-row>
                 </v-col>
+            </v-row>
 
-                
+            <v-row class="py-5 mb-2 d-flex align-center justify-center bg-light-blue-lighten-2">
+                <!-- PDF of Resume Here -->
+                <v-col>
+                    <v-card
+                        append-icon="mdi-open-in-new"
+                        class="mx-auto"
+                        href="./Ahren_Chen_Resume.pdf"
+                        max-width="344"
+                        prepend-icon="mdi-file-pdf"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="Resume">
+                    </v-card>
+                </v-col>
             </v-row>
         </v-responsive>
     </v-container>

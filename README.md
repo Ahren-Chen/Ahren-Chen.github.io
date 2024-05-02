@@ -11,13 +11,14 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | 3 | Set up navigation between pages using navigation bar | Not started |
 | 4 | Set up navigation between pages using page specific buttons | Not started |
 | 5 | Fill in content for Home Page | Not started |
-| 6 | Fill in information for About Page | Not started |
+| 6 | Fill in information for About Page | Done |
 | 7 | Fill in information about experience | Not started |
 | 8 | Flesh things out and make look decent | Not started |
 
 ## Logbook
 - April 27: Finished setting up the basic home page and listed features that are in plan
 - April 28: Wanted to finish Feature 2 and get templates up for other pages (About me, experience template, project templates, etc) but only got the template for About Me up and running.
+- May 2: Finished feature 6 by adding the resume link to the About Me page.
 
 ## Project setup
 
