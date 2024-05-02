@@ -6,7 +6,7 @@
             <v-row class="py-5 px-5 d-flex align-center justify-center bg-light-blue-lighten-3">
 
                 <!-- Intro here -->
-                <v-col justify="start">
+                <v-col justify="start" class="bg-light-blue-lighten-4 px-2">
                     <h2>Hello! My name is Ahren Chen and I am currently a third-year student enrolled in the Software 
                         Engineering Co-op program at McMaster University in Hamilton, ON, Canada.
                         I strive to learn and create quality code that will stand the test of time.</h2>
