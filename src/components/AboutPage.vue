@@ -3,10 +3,10 @@
         <v-responsive class="fill-height text-center">
             <h1 class="py-10 text-h3 font-weight-bold bg-light-blue-lighten-4">About Me</h1>
 
-            <v-row class="py-5 px-5 d-flex align-center justify-center bg-light-blue-lighten-3">
+            <v-row class="py-5 px-5 d-flex align-center justify-center bg-light-blue-lighten-5">
 
                 <!-- Intro here -->
-                <v-col justify="start" class="bg-light-blue-lighten-4 px-2">
+                <v-col justify="start" class="bg-light-blue-lighten-5 px-2">
                     <h2>Hello! My name is Ahren Chen and I am currently a third-year student enrolled in the Software 
                         Engineering Co-op program at McMaster University in Hamilton, ON, Canada.
                         I strive to learn and create quality code that will stand the test of time.</h2>
@@ -50,7 +50,9 @@
                 </v-col>
             </v-row>
 
-            <v-row class="py-5 mb-2 d-flex align-center justify-center bg-light-blue-lighten-2">
+            <v-divider></v-divider>
+
+            <v-row class="py-5 mb-2 d-flex align-center justify-center bg-light-blue-lighten-5">
                 <!-- PDF of Resume Here -->
                 <v-col>
                     <v-card

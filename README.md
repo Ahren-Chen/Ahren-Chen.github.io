@@ -7,7 +7,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | Feature # | Description | Progress |
 | :-:       |---          |:-:       |
 | 1 | Set up basic home page | Done |
-| 2 | Set up templates for other pages/components | In progress |
+| 2 | Set up templates for other pages/components | Done |
 | 3 | Set up navigation between pages using navigation bar | Not started |
 | 4 | Set up navigation between pages using page specific buttons | In Progress |
 | 5 | Fill in content for Home Page | In progress |
@@ -19,6 +19,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - April 27: Finished setting up the basic home page and listed features that are in plan
 - April 28: Wanted to finish Feature 2 and get templates up for other pages (About me, experience template, project templates, etc) but only got the template for About Me up and running.
 - May 2: Finished feature 6 by adding the resume link to the About Me page. Set up template project links in the Home Page.
+- May 12: Worked on setting up the template for projects that will be linked into by the home page. Finished wind turbine project as template, rest of the projects will mainly be copy and paste. Props are unfortunately not applicable since although the layout is similar, the exact number of paragraphs, ordering of images and text etc are not the exact same across projects.
 
 ## Project setup
 
