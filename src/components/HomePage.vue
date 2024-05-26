@@ -11,7 +11,8 @@
                         class="mx-auto"
                         href="/projects/wind_turbine"
                         min-height="350"
-                        image="@/assets/Projects_Images/Wind_Turbine/Wind_Turbine.jpg">
+                        image="@/assets/Projects_Images/Wind_Turbine/Wind_Turbine.jpg"
+                        color="secondary">
 
                         <v-card-title class="text-h3 py-5 font-weight-bold">Wind Turbine</v-card-title>
                         <v-card-text class="text-h5 py-5 font-weight-light">A 3D wind turbine blade model and simulation project that I worked on in my first year of university.</v-card-text>
@@ -22,12 +23,13 @@
                     <v-card
                         append-icon="mdi-open-in-new"
                         class="mx-auto"
-                        href="/projects/wind_turbine"
+                        href="/projects/get_a_grip"
                         min-height="350"
-                        image="@/assets/Projects_Images/Wind_Turbine/Wind_Turbine.jpg">
+                        image="@/assets/Projects_Images/Get_A_Grip/Get_A_Grip.jpg"
+                        color="primary">
 
-                        <v-card-title class="text-h3 py-5 font-weight-bold">Wind Turbine</v-card-title>
-                        <v-card-text class="text-h5 py-5 font-weight-light">A 3D wind turbine blade model and simulation project that I worked on in my first year of university.</v-card-text>
+                        <v-card-title class="text-h3 py-5 font-weight-bold">Get A Grip</v-card-title>
+                        <v-card-text class="text-h5 py-5 font-weight-light">A medical sterilization process that I worked on in my first year of university.</v-card-text>
                     </v-card>
                 </v-col>
 

@@ -20,6 +20,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - April 28: Wanted to finish Feature 2 and get templates up for other pages (About me, experience template, project templates, etc) but only got the template for About Me up and running.
 - May 2: Finished feature 6 by adding the resume link to the About Me page. Set up template project links in the Home Page.
 - May 12: Worked on setting up the template for projects that will be linked into by the home page. Finished wind turbine project as template, rest of the projects will mainly be copy and paste. Props are unfortunately not applicable since although the layout is similar, the exact number of paragraphs, ordering of images and text etc are not the exact same across projects.
+- May 17: Worked on setting up the project pages for the "Get a Grip" project.
 
 ## Project setup
 

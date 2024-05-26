@@ -46,6 +46,21 @@ const routes = [
         component: () => import("@/views/Projects/Wind_Turbine.vue"),
       },
     ],
+  },
+  {
+    path: "/projects/get_a_grip",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Get A Grip',
+        meta: { title: "Get A Grip - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/Get_A_Grip.vue"),
+      },
+    ],
   }
 ]
 
