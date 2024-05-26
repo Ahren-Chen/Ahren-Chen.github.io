@@ -37,12 +37,14 @@
                     <v-card
                         append-icon="mdi-open-in-new"
                         class="mx-auto"
-                        href="/projects/wind_turbine"
+                        href="/projects/recycling_system"
                         min-height="350"
-                        image="@/assets/Projects_Images/Wind_Turbine/Wind_Turbine.jpg">
+                        image="@/assets/Projects_Images/Recycling_System/revenge_recycling_system.png"
+                        color="primary">
 
-                        <v-card-title class="text-h3 py-5 font-weight-bold">Wind Turbine</v-card-title>
-                        <v-card-text class="text-h5 py-5 font-weight-light">A 3D wind turbine blade model and simulation project that I worked on in my first year of university.</v-card-text>
+                        <!-- The title is filled in by the image-->
+                        <v-card-title class="text-h3 py-5 font-weight-bold"></v-card-title>
+                        <v-card-text class="text-h5 py-14 font-weight-light">A 3D wind turbine blade model and simulation project that I worked on in my first year of university.</v-card-text>
                     </v-card>
                 </v-col>
             </v-row>

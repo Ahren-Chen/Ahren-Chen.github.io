@@ -61,7 +61,22 @@ const routes = [
         component: () => import("@/views/Projects/Get_A_Grip.vue"),
       },
     ],
-  }
+  },
+  {
+    path: "/projects/recycling_system",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Revenge of the Recycling System',
+        meta: { title: "Revenge of the Recycling System - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/Recycling_System.vue"),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({
