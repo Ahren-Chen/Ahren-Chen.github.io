@@ -22,6 +22,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - May 12: Worked on setting up the template for projects that will be linked into by the home page. Finished wind turbine project as template, rest of the projects will mainly be copy and paste. Props are unfortunately not applicable since although the layout is similar, the exact number of paragraphs, ordering of images and text etc are not the exact same across projects.
 - May 17: Worked on setting up the project pages for the "Get a Grip" project.
 - May 26: Finished on "Get a Grip" project page. Finished "Revenge of the Recycling System" project page.
+- June 1: Finished "Power in the Community" project page. 
 
 ## Project setup
 

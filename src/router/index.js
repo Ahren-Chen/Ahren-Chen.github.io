@@ -77,6 +77,21 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/projects/community",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Power In The Community',
+        meta: { title: "Power In The Community - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/Community.vue"),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({
