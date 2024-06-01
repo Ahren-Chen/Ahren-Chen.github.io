@@ -54,24 +54,22 @@
                 <!-- Project 5 -->
                 <v-col cols="4">
                     <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/get_a_grip" min-height="350"
-                        image="@/assets/Projects_Images/Get_A_Grip/Get_A_Grip.jpg" color="primary">
+                        image="@/assets/Projects_Images/Skybox/skybox.png" color="primary" :variant="tonal">
 
-                        <v-card-title class="text-h3 py-5 font-weight-bold">Get A Grip</v-card-title>
-                        <v-card-text class="text-h5 py-5 font-weight-light">A medical sterilization process that I
-                            worked on in my first year of university.</v-card-text>
+                        <v-card-title class="text-h3 py-5 font-weight-bold">Skybox</v-card-title>
+                        <v-card-text class="text-h5 py-5 font-weight-light">To the Moon and Hack! Hackathon project.</v-card-text>
                     </v-card>
                 </v-col>
 
                 <!-- Project 6 -->
                 <v-col cols="4">
                     <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/recycling_system"
-                        min-height="350" image="@/assets/Projects_Images/Recycling_System/revenge_recycling_system.png"
+                        min-height="350" image="@/assets/Projects_Images/Tub/tub.png"
                         color="primary">
 
                         <!-- The title is filled in by the image-->
-                        <v-card-title class="text-h3 py-5 font-weight-bold"></v-card-title>
-                        <v-card-text class="text-h5 py-14 font-weight-light">A 3D wind turbine blade model and
-                            simulation project that I worked on in my first year of university.</v-card-text>
+                        <v-card-title class="text-h3 py-5 font-weight-bold">T.U.B</v-card-title>
+                        <v-card-text class="text-h5 py-14 font-weight-light">A Club Management app created for a hackathon.</v-card-text>
                     </v-card>
                 </v-col>
             </v-row>
