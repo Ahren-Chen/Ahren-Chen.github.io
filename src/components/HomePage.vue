@@ -53,8 +53,8 @@
 
                 <!-- Project 5 -->
                 <v-col cols="4">
-                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/get_a_grip" min-height="350"
-                        image="@/assets/Projects_Images/Skybox/skybox.png" color="primary" :variant="tonal">
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/skybox" min-height="350"
+                        image="@/assets/Projects_Images/Skybox/skybox.png" color="primary">
 
                         <v-card-title class="text-h3 py-5 font-weight-bold">Skybox</v-card-title>
                         <v-card-text class="text-h5 py-5 font-weight-light">To the Moon and Hack! Hackathon project.</v-card-text>
@@ -63,7 +63,7 @@
 
                 <!-- Project 6 -->
                 <v-col cols="4">
-                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/recycling_system"
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub"
                         min-height="350" image="@/assets/Projects_Images/Tub/tub.png"
                         color="primary">
 
