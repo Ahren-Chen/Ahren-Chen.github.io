@@ -5,13 +5,13 @@
             <!-- Banner Image -->
             <v-row class="py-5 px-0 d-flex align-center justify-center">
                 <v-col>
-                    <v-img cover height="300" src="@/assets/Projects_Images/Wind_Turbine/banner.jpg">
+                    <v-img cover height="300" src="@/assets/Projects_Images/Tub/banner.avif">
                     </v-img>
                 </v-col>
             </v-row>
 
             <!-- Title -->
-            <h1 class="py-10 text-h3 font-weight-bold bg-light-blue-lighten-4">Renewable Energy Challenge</h1>
+            <h1 class="py-10 text-h3 font-weight-bold bg-light-blue-lighten-4">Hackathon: TUB</h1>
 
             <!-- Technical and Soft Skills -->
             <v-row class="py-5 px-5 d-flex justify-center bg-light-blue-lighten-5">
@@ -40,29 +40,27 @@
             <v-row class="py-5 px-5 d-flex align-center justify-center bg-light-blue-lighten-5">
 
                 <!-- Summary -->
-                <v-col justify="start" class="mx-auto">
-                    <v-card title="Project Description">
+                <v-card title="Project Description">
 
-                        <v-card-text class="text-subtitle-1">
-                            <p>During my first year of university, I worked on a project that involved creating a 3D
-                                model of a wind turbine blade and simulating its performance in a wind tunnel. The
-                                project was part of a renewable energy challenge that was hosted by the university.</p>
+                    <v-card-text class="text-subtitle-1">
+                        Our hackathon team decided to create a club management program in 48 hours to make signing up
+                        for clubs and creating/managing them easier for students and staff. The program is made of
+                        python as the back-end with python kivy to create the front-end and MySQL as the database to
+                        store all account/club information. The program consists of a log-in/sign-up feature, a
+                        biography edit, password changes, joining clubs, club creation, viewing currently joined clubs,
+                        and a search/scroll section for clubs. There were many more features planned, but we were unable
+                        to implement them within the limited time we had, such as admin privileges for certain users and
+                        announcement pages for each club.
+                    </v-card-text>
 
-                            <p>My role in the project was to design the 3D model of the wind turbine blade using
-                                Autodesk Inventor and to analyze the stress and strain on the blade using Granta Design.
-                                I also worked on the project report and presentation, which involved using Microsoft
-                                Office to create the necessary documents.</p>
-                        </v-card-text>
-                    </v-card>
 
-                </v-col>
-
-                <!-- Photo -->
-                <v-col>
-                    <v-img cover height="400" src="@/assets/Projects_Images/Wind_Turbine/summary_photo.jpg">
+                    <v-img width="800" src="@/assets/Projects_Images/Tub/summary.png" class="mx-auto">
                     </v-img>
 
-                </v-col>
+                    <v-card-text class="font-weight-light">
+                        Account Profile Example
+                    </v-card-text>
+                </v-card>
             </v-row>
 
             <v-divider></v-divider>
@@ -72,37 +70,54 @@
                 <v-card title="Design Process" class="mx-auto">
 
                     <v-card-text class="text-subtitle-1">
-                        We first created an objective tree to highlight important aspects that fit our mission
-                        requirements and concluded that our primary objective was to minimize mass. The is because our
-                        turbine should not be heavy enough to affect the structural integrity of the house. Our
-                        secondary goal was to reduce the cost since our target audience was the average household which
-                        means it needs to be affordable. After careful inspection of possible materials using a weighted
-                        decision matrix, we concluded that medium carbon steel was the optimal option for this
-                        assignment. With the material selected, we began to model our turbine blade using Autodesk
-                        Inventor with a set of given dimensions.
+                        For this project, we decided to create something that may be practical and noticed that most
+                        schools never had an app/program to keep track of all school-sanctioned clubs, and we thought it
+                        would be useful to create one for convenience. This was also the first time we incorporated
+                        MySQL into our projects, and with that came challenges such as preventing SQL injections. During
+                        this time, we each needed to understand the logic of each other's code to properly use and
+                        prevent bugs from occurring, which means that I was able to obtain a working understanding of
+                        MySQL during this project.
                     </v-card-text>
 
-                    <v-img cover width="400" src="@/assets/Projects_Images/Wind_Turbine/turbine_blade.jpg"
-                        class="mx-auto">
-                    </v-img>
+                    <v-row class="my-auto px-5">
+                        <v-img cover height="400" src="@/assets/Projects_Images/Tub/log_in.png" class="mx-auto">
+                        </v-img>
+                        <v-img cover height="400" src="@/assets/Projects_Images/Tub/sign_up.png" class="mx-auto">
+                        </v-img>
+                    </v-row>
 
                     <v-card-text class="font-weight-light">
-                        Initial Wind Turbine Blade
+                        Log-In and Sign-Up Pages
                     </v-card-text>
 
                     <v-card-text class="text-subtitle-1">
-                        Once we had the basic shape of the blade designed, we calculated the thickness required so that
-                        the blade would not deform more than 10 mm. After testing deflection simulations with Inventor,
-                        we found that a thickness of 24.6 mm would fulfill the requirements while not wasting any
-                        additional material.
+                        I wanted to try learning something new this hackathon, so I took it upon myself to learn Kivy,
+                        an extremely useful tool to create a front-end without using pygame. I was responsible for
+                        creating all the visuals, buttons, text boxes, scroll bars, and transitions. As this was my
+                        first time using Kivy, I learned it during the 48 hours, and this was truly a worthwhile
+                        learning experience for problem-solving as there was no guidance other than google and
+                        StackOverflow for any issues I encountered.
                     </v-card-text>
 
-                    <v-img cover width="400" src="@/assets/Projects_Images/Wind_Turbine/turbine_blade_deflection.jpg"
-                        class="mx-auto">
-                    </v-img>
+                    <v-row class="my-auto px-5">
+                        <v-img cover height="450" src="@/assets/Projects_Images/Tub/available_club.png" class="mx-auto">
+                        </v-img>
+                        <v-img cover height="450" src="@/assets/Projects_Images/Tub/club_creation.png" class="mx-auto">
+                        </v-img>
+                    </v-row>
 
                     <v-card-text class="font-weight-light">
-                        Turbine Blade Simulation
+                        Available Clubs and Club Creation
+                    </v-card-text>
+
+                    <v-card-text class="text-subtitle-1">
+                        The most challenging aspect of this hackathon for me was learning an entirely different language
+                        in a tight time constraint while also being able to provide help to my other teammates in
+                        creating/implementing ideas. The difference in this project was that I was almost fully
+                        responsible for the front-end, so I knew to critique ideas based on an estimate of feasibility
+                        and time needed, as well as give alternative solutions. It allowed for more established
+                        communication than in previous projects and ultimately lead to a more productive working
+                        structure.
                     </v-card-text>
 
                 </v-card>
@@ -112,16 +127,9 @@
 
             <!-- Conclusion -->
             <v-row class="py-5 px-5 d-flex align-center justify-center bg-light-blue-lighten-5">
-                <v-card title="Conclusion" class="mx-auto">
-
-                    <v-card-text class="text-subtitle-1">
-                        This project was an astonishing learning opportunity that helped me develop my communication
-                        skills and teamwork skills. The assignment also challenged my time management and
-                        problem-solving skills, which only further developed them. The soft skills learned from this
-                        were indispensable, and I could not have done it without my irreplaceable teammates, who gave
-                        their all during this project.
-                    </v-card-text>
-
+                <v-card append-icon="mdi-open-in-new" class="mx-auto" color="#385F73"
+                    href="https://github.com/Ahren-Chen/SkyBox" max-width="344" prepend-icon="mdi-github"
+                    rel="noopener noreferrer" target="_blank" title="GitHub">
                 </v-card>
             </v-row>
         </v-responsive>
@@ -134,15 +142,15 @@ export default {
 
         technical_skills_items: [
             {
-                title: 'Autodesk Inventor',
+                title: 'Python',
                 value: 1,
             },
             {
-                title: 'Granta Design',
+                title: 'Python Kivy',
                 value: 2,
             },
             {
-                title: 'Microsoft Office',
+                title: 'MySQL',
                 value: 3,
             },
         ],
@@ -163,6 +171,10 @@ export default {
             {
                 title: 'Problem Solving',
                 value: 4,
+            },
+            {
+                title: 'Creativity',
+                value: 5,
             },
         ],
     }),
