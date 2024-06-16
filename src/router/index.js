@@ -122,6 +122,51 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/projects/hackathon_of_change",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Hackathon of Change',
+        meta: { title: "Hackathon of Change - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/TUB.vue"),
+      },
+    ],
+  },
+  {
+    path: "/projects/mesh_generator",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Mesh Generator',
+        meta: { title: "Mesh Generator - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/TUB.vue"),
+      },
+    ],
+  },
+  {
+    path: "/projects/secure_communication",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Secure Chat Application',
+        meta: { title: "Secure Chat Application - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Projects/TUB.vue"),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({

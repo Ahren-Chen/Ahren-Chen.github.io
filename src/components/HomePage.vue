@@ -57,19 +57,56 @@
                         image="@/assets/Projects_Images/Skybox/skybox.png" color="primary">
 
                         <v-card-title class="text-h3 py-5 font-weight-bold">Skybox</v-card-title>
-                        <v-card-text class="text-h5 py-5 font-weight-light">To the Moon and Hack! Hackathon project.</v-card-text>
+                        <v-card-text class="text-h5 py-5 font-weight-light">To the Moon and Hack! Hackathon
+                            project.</v-card-text>
                     </v-card>
                 </v-col>
 
                 <!-- Project 6 -->
                 <v-col cols="4">
-                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub"
-                        min-height="350" image="@/assets/Projects_Images/Tub/tub.png"
-                        color="primary">
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub" min-height="350"
+                        image="@/assets/Projects_Images/Tub/tub.png" color="primary">
 
                         <!-- The title is filled in by the image-->
                         <v-card-title class="text-h3 py-5 font-weight-bold">T.U.B</v-card-title>
-                        <v-card-text class="text-h5 py-14 font-weight-light">A Club Management app created for a hackathon.</v-card-text>
+                        <v-card-text class="text-h5 py-14 font-weight-light">A Club Management app created for a
+                            hackathon.</v-card-text>
+                    </v-card>
+                </v-col>
+
+                <!-- Project 7 -->
+                <v-col cols="4">
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub" min-height="350"
+                        image="@/assets/Projects_Images/Tub/tub.png" color="primary">
+
+                        <!-- The title is filled in by the image-->
+                        <v-card-title class="text-h3 py-5 font-weight-bold">Hackathon of Change</v-card-title>
+                        <v-card-text class="text-h5 py-14 font-weight-light">A app developed to support local businesses
+                            following the pandemic.</v-card-text>
+                    </v-card>
+                </v-col>
+
+                <!-- Project 8 -->
+                <v-col cols="4">
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub" min-height="350"
+                        image="@/assets/Projects_Images/Tub/tub.png" color="primary">
+
+                        <!-- The title is filled in by the image-->
+                        <v-card-title class="text-h3 py-5 font-weight-bold">Mesh Generator</v-card-title>
+                        <v-card-text class="text-h5 py-14 font-weight-light">A 3 component randomized mesh generator
+                            that produces a realistic 2D island environment.</v-card-text>
+                    </v-card>
+                </v-col>
+
+                <!-- Project 9 -->
+                <v-col cols="4">
+                    <v-card append-icon="mdi-open-in-new" class="mx-auto" href="/projects/tub" min-height="350"
+                        image="@/assets/Projects_Images/Tub/tub.png" color="primary">
+
+                        <!-- The title is filled in by the image-->
+                        <v-card-title class="text-h3 py-5 font-weight-bold">Secure Chat Application</v-card-title>
+                        <v-card-text class="text-h5 py-14 font-weight-light">An Android chat application that real time
+                            secure communication for company use.</v-card-text>
                     </v-card>
                 </v-col>
             </v-row>
