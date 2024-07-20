@@ -67,7 +67,7 @@ import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
 const bannerImgPath = '/src/assets/Projects_Images/Recycling_System/banner.jfif'
-const pageTitle = 'Renewable Energy Challenge'
+const pageTitle = 'Revenge of the Recycling System'
 
 const technical_skills_items = [
   'Python',

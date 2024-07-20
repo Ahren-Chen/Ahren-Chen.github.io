@@ -3,7 +3,7 @@
         <v-card append-icon="mdi-open-in-new" class="mx-auto" :href="link" min-height="350"
             :image="image" :color="color">
 
-            <HomePageCardTitle :text = "title" class="wrap-text"/>
+            <HomePageCardTitle :text = "title"/>
             <HomePageCardText :text = "text" />
         </v-card>
     </v-col>
