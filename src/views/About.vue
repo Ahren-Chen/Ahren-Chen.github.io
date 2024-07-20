@@ -15,16 +15,12 @@
                     <v-img cover height="500" src="@/assets/AboutPage_profile.jpg">
                     </v-img>
 
-                    <v-row class="pt-4 px-3 align-center justify-center">
+                    <v-row class="pt-5 px-3 align-center justify-center">
                         <v-col>
-                            <v-card append-icon="mdi-open-in-new" class="mx-auto" :href="LinkedInLink" max-width="344"
-                                prepend-icon="mdi-linkedin" rel="noopener noreferrer" target="_blank" title="LinkedIn">
-                            </v-card>
+                            <SocialMediaButtons :link="LinkedInLink" icon="mdi-linkedin" title="LinkedIn" />
                         </v-col>
                         <v-col>
-                            <v-card append-icon="mdi-open-in-new" class="mx-auto" :href="GitHubLink" max-width="344"
-                                prepend-icon="mdi-github" rel="noopener noreferrer" target="_blank" title="GitHub">
-                            </v-card>
+                            <SocialMediaButtons :link="GitHubLink" icon="mdi-github" title="GitHub" />
                         </v-col>
                     </v-row>
                 </v-col>
@@ -37,6 +33,7 @@
 <script setup>
 import PageTitle from '@/components/PageTitle.vue';
 import HomePageRow from '@/components/HomePageRow.vue';
+import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vue';
 
 const Title = "About Me";
 
