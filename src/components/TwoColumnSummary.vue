@@ -13,8 +13,8 @@
         </v-col>
 
         <!-- Photo -->
-        <v-col>
-            <v-img cover height="400" :src="summaryImg">
+        <v-col class="align-center justify-center">
+            <v-img cover :height="height" :src="summaryImg">
             </v-img>
 
         </v-col>
@@ -32,7 +32,11 @@ export default {
         summaryImg: {
             type: String,
             required: true
-        }
+        },
+        height: {
+            type: String,
+            default: '400'
+        },
     }
 }
 </script>
