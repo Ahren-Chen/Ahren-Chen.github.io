@@ -26,6 +26,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - June 2: Finished "Skybox" project page and have a template set up for Tub project.
 - June 16: Finished Tub project, started to work on adding new projects such as Piraten Karpen, Secure chat application, and Mesh Generator. But for now I will work on tech debt and make everything reuseable since there is too much copy and pasting. Finished refactoring the Get A Grip project.
 - July 7: Refactor to use more components.
+- July 20: Refactor the About page to use components.
 
 ## Project setup
 
