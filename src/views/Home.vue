@@ -68,9 +68,9 @@ const projects = [
   {
     title: 'Hackathon of Change',
     text: 'A app developed to support local businesses following the pandemic.',
-    image: '/src/assets/Projects_Images/Tub/tub.png',
+    image: '/src/assets/Projects_Images/Hackathon_Of_Change/hackathon_of_change.avif',
     color: 'primary',
-    link: '/projects/tub'
+    link: '/projects/hackathon_of_change'
   },
   {
     title: 'Mesh Generator',
