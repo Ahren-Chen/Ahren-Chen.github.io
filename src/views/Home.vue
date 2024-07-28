@@ -75,9 +75,9 @@ const projects = [
   {
     title: 'Mesh Generator',
     text: 'A 3 component randomized mesh generator that produces a realistic 2D island environment.',
-    image: '/src/assets/Projects_Images/Tub/tub.png',
-    color: 'primary',
-    link: '/projects/tub'
+    image: '/src/assets/Projects_Images/Mesh_Generator/mesh_generator.jpg',
+    color: 'secondary',
+    link: '/projects/mesh_generator'
   },
   {
     title: 'Secure Chat Application',

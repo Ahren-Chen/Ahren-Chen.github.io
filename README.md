@@ -28,6 +28,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 7: Refactor to use more components.
 - July 20: Refactor the About page to use components. Refactored Recycling system, wind turbine, and skybox page.
 - July 27: Refactor TUB page. Created Hackathon Of Change page.
+- July 28: Completed Mesh Generator page
 
 ## Project setup
 
