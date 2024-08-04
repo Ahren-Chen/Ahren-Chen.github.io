@@ -1,13 +1,13 @@
 <template>
     <v-row class="my-auto px-5">
         <v-col>
-            <v-img cover height="400" :src="imageOne" class="mx-auto">
+            <v-img height="400" :src="imageOne" class="mx-auto">
             </v-img>
             <FigureText :text="textOne" />
         </v-col>
 
         <v-col>
-            <v-img cover height="400" :src="imageTwo" class="mx-auto">
+            <v-img height="400" :src="imageTwo" class="mx-auto">
             </v-img>
             <FigureText :text="textTwo" />
         </v-col>

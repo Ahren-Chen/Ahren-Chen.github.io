@@ -10,7 +10,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | 2 | Set up templates for other pages/components | Done |
 | 3 | Set up navigation between pages using navigation bar | In Progress |
 | 4 | Set up navigation between pages using page specific buttons | In Progress |
-| 5 | Fill in content for Home Page | In progress |
+| 5 | Fill in content for Home Page | Done |
 | 6 | Fill in information for About Page | Done |
 | 7 | Fill in information about experience | Not started |
 | 8 | Flesh things out and make look decent | In Progress |
@@ -29,6 +29,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 20: Refactor the About page to use components. Refactored Recycling system, wind turbine, and skybox page.
 - July 27: Refactor TUB page. Created Hackathon Of Change page.
 - July 28: Completed Mesh Generator page
+- August 3: Finished SecureChatApplication page, next up is putting in the intern experiences.
 
 ## Project setup
 

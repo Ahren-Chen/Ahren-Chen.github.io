@@ -14,7 +14,7 @@
 
         <!-- Photo -->
         <v-col class="align-center justify-center">
-            <v-img cover :height="height" :src="summaryImg">
+            <v-img :height="height" :src="summaryImg">
             </v-img>
 
         </v-col>

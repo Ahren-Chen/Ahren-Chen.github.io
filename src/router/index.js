@@ -153,7 +153,7 @@ const routes = [
     ],
   },
   {
-    path: "/projects/secure_communication",
+    path: "/projects/secure_chat",
     component: () => import("@/layouts/default/Default.vue"),
     children: [
       {
@@ -163,7 +163,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (Home-[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import("@/views/Projects/TUB.vue"),
+        component: () => import("@/views/Projects/Secure_Chat_Application.vue"),
       },
     ],
   },
