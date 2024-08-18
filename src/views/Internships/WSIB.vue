@@ -17,17 +17,11 @@
         <Card>
           <v-slot>
   
-            <v-card-title>{{ designProcessTitle }}</v-card-title>
+            <v-card-title>{{ bodyTitle }}</v-card-title>
   
-            <CardText :text="designProcessText1" />
+            <CardText :text="bodyText1" />
   
-            <v-img cover width="400" :src="TurbineBlade" class="mx-auto" />
-            <FigureText :text="TurbineBladeText" />
-  
-            <CardText :text="designProcessText2" />
-  
-            <v-img cover width="400" :src="TurbineBladeDeflection" class="mx-auto" />
-            <FigureText :text="TurbineBladeDeflectionText" />
+            <CardText :text="bodyText2" />
   
           </v-slot>
         </Card>
@@ -54,65 +48,59 @@
   import TwoColumnSummary from '@/components/TwoColumnSummary.vue'
   import Card from '@/components/Card.vue'
   import CardText from '@/components/CardText.vue'
-  import FigureText from '@/components/Subcomponents/FigureText.vue'
   
   // data
-  const bannerImgPath = '/src/assets/Projects_Images/Wind_Turbine/banner.jpg'
-  const pageTitle = 'Renewable Energy Challenge'
+  const bannerImgPath = '/src/assets/Internships_Images/WSIB/banner.png'
+  const pageTitle = 'Workplace Safety and Insurance Board (WSIB)'
   
   const technical_skills_items = [
-    'Autodesk Inventor',
     'Microsoft Office',
-    'Granta Design',
+    'Data Analysis',
+    'Data Visualization',
   ]
   const soft_skills_items = [
     'Teamwork',
     'Communication',
     'Time Management',
     'Problem Solving',
+    "Research",
   ]
   
   const summaryText =
-    `During my first year of university, I worked on a project that involved creating a 3D
-    model of a wind turbine blade and simulating its performance in a wind tunnel. The
-    project was part of a renewable energy challenge that was hosted by the university.
+    `During the summer of 2023, I had the opportunity to work at the Workplace Safety and Insurance Board (WSIB) 
+    as an Operations Vendor Management Intern. I was part of a small team that was responsible for all vendor
+    contracts and ensuring that all vendors were compliant with the WSIB's policies and procedures. This included
+    reviewing vendor application questionnaires, conducting background checks, and ensuring that all vendors had
+    the necessary skills and qualifications to perform the work required. I also had the opportunity to organize
+    meetings with stakeholders to discuss vendor performance and to identify areas for improvement. 
+    `
+  const summaryImgPath = '/src/assets/Internships_Images/WSIB/summary.jpg'
   
-    My role in the project was to design the 3D model of the wind turbine blade using
-    Autodesk Inventor and to analyze the stress and strain on the blade using Granta Design.
-    I also worked on the project report and presentation, which involved using Microsoft
-    Office to create the necessary documents.`
-  const summaryImgPath = '/src/assets/Projects_Images/Wind_Turbine/summary_photo.jpg'
+  const bodyTitle = 'What I learned'
+  const bodyText1 =
+    `The operations vendor management team at WSIB was responsible for managing 20+ contracts with different
+    vendors as well as reaching out to new areas to expand coverage. As part of my short 4 month internship, I
+    was able to learn the business sides of things which was an incredible experience considering how up until
+    that point, my major mainly focused on software engineering and the purely technical aspects. I learned from
+    the ground up, how the process of deciding on a new contract in a new area works, and how the requirements 
+    are set depending on the stakeholders involved.`
   
-  const designProcessTitle = 'Design Process'
-  const designProcessText1 =
-    `We first created an objective tree to highlight important aspects that fit our mission
-    requirements and concluded that our primary objective was to minimize mass. The is because our
-    turbine should not be heavy enough to affect the structural integrity of the house. Our
-    secondary goal was to reduce the cost since our target audience was the average household which
-    means it needs to be affordable. After careful inspection of possible materials using a weighted
-    decision matrix, we concluded that medium carbon steel was the optimal option for this
-    assignment. With the material selected, we began to model our turbine blade using Autodesk
-    Inventor with a set of given dimensions.`
-  
-  const TurbineBlade = '/src/assets/Projects_Images/Wind_Turbine/turbine_blade.jpg'
-  const TurbineBladeText = 'Initial Wind Turbine Blade'
-  
-  const designProcessText2 =
-    `Once we had the basic shape of the blade designed, we calculated the thickness required so that
-    the blade would not deform more than 10 mm. After testing deflection simulations with Inventor,
-    we found that a thickness of 24.6 mm would fulfill the requirements while not wasting any
-    additional material.`
-  
-  const TurbineBladeDeflection = '/src/assets/Projects_Images/Wind_Turbine/turbine_blade_deflection.jpg'
-  const TurbineBladeDeflectionText = 'Turbine Blade Simulation'
+  const bodyText2 =
+    `I was also able to glimpse into the world of data analysis and was tasked with creating tools that would
+    automate the process of reviewing vendor spending to identify any discrepanacies and alert the team for
+    any unusual spending. This was a great opportunity to learn about data visualization and how to present
+    reports to management in a way that was easy to understand, helpful, and with the appropriate research
+    and analysis to back it up. Another small project I worked on was to create a knowledge sharing form
+    on Micosoft Excel that would function as a database for the team to search adn review documents based
+    on contracts, case numbers, and other relevant information.`
   
   const ConclusionTitle = 'Conclusion'
   const ConclusionText =
-    `This project was an astonishing learning opportunity that helped me develop my communication
-    skills and teamwork skills. The assignment also challenged my time management and
-    problem-solving skills, which only further developed them. The soft skills learned from this
-    were indispensable, and I could not have done it without my irreplaceable teammates, who gave
-    their all during this project.`
+    `This internship was an amazing experience and I am thankful to have had the opportunity to work with such
+    a great team. I learned a lot about the business side of things and how important it is to have good communication
+    skills in any organization. I was able to apply my technical skills in a new way and learned a lot about how to
+    manipulate data to create useful tools for the team. I am grateful for the opportunity to have worked at WSIB
+    and I look forward to applying what I have learned in my future career.`
   
   </script>
   

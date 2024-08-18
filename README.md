@@ -31,7 +31,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 28: Completed Mesh Generator page
 - August 3: Finished SecureChatApplication page, next up is putting in the intern experiences.
 - August 17: Started setup of the Internship tab
-- August 18: Set up the YRDSB Page
+- August 18: Set up the YRDSB Page, finished WSIB page
 
 ## Project setup
 
