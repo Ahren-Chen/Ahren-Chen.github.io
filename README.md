@@ -8,11 +8,11 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | :-:       |---          |:-:       |
 | 1 | Set up basic home page | Done |
 | 2 | Set up templates for other pages/components | Done |
-| 3 | Set up navigation between pages using navigation bar | In Progress |
-| 4 | Set up navigation between pages using page specific buttons | In Progress |
+| 3 | Set up navigation between pages using navigation bar | Done |
+| 4 | Set up navigation between pages using page specific buttons | Done |
 | 5 | Fill in content for Home Page | Done |
 | 6 | Fill in information for About Page | Done |
-| 7 | Fill in information about experience | Not started |
+| 7 | Fill in information about experience | In Progress |
 | 8 | Flesh things out and make look decent | In Progress |
 
 ## Logbook
@@ -31,6 +31,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 28: Completed Mesh Generator page
 - August 3: Finished SecureChatApplication page, next up is putting in the intern experiences.
 - August 17: Started setup of the Internship tab
+- August 18: Set up the YRDSB Page
 
 ## Project setup
 

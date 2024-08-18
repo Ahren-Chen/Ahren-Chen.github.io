@@ -182,6 +182,51 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/internships/yrdsb",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'YRDSB',
+        meta: { title: "YRDSB Internship - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Internships/YRDSB.vue"),
+      },
+    ],
+  },
+  {
+    path: "/internships/wsib",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'WSIB',
+        meta: { title: "Workplace Safety and Insurance Board Internship - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Internships/WSIB.vue"),
+      },
+    ],
+  },
+  {
+    path: "/internships/ericson",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Ericsson',
+        meta: { title: "Ericsson Internship - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Internships/Ericsson.vue"),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({

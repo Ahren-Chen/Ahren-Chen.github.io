@@ -27,21 +27,21 @@
       text: 'Software Developer Internship (16 months)',
       image: '/src/assets/Internships_Images/Ericsson/Ericsson.png',
       color: 'primary',
-      link: '/projects/wind_turbine'
+      link: '/internships/ericsson'
     },
     {
       title: 'WSIB',
       text: 'Operations Vendor Management Internship (4 months)',
       image: '/src/assets/Internships_Images/WSIB/WSIB.png',
       color: 'primary',
-      link: '/projects/get_a_grip'
+      link: '/internships/wsib'
     },
     {
       title: 'YRDSB',
       text: 'IT Technical Support Internship (4 months)',
-      image: '/src/assets/Internships_Images/IT/IT.png',
+      image: '/src/assets/Internships_Images/YRDSB/IT.png',
       color: 'primary',
-      link: '/projects/recycling_system'
+      link: '/internships/yrdsb'
     },
   ];
   </script>
