@@ -30,6 +30,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 27: Refactor TUB page. Created Hackathon Of Change page.
 - July 28: Completed Mesh Generator page
 - August 3: Finished SecureChatApplication page, next up is putting in the intern experiences.
+- August 17: Started setup of the Internship tab
 
 ## Project setup
 

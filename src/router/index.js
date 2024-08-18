@@ -33,6 +33,21 @@ const routes = [
     ],
   },
   {
+    path: "/internships",
+    component: () => import("@/layouts/default/Default.vue"),
+    children: [
+      {
+        path: '',
+        name: 'Internships',
+        meta: { title: "Internships - Ahren Chen" },
+        // route level code-splitting
+        // this generates a separate chunk (Home-[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import("@/views/Internships.vue"),
+      },
+    ],
+  },
+  {
     path: "/projects/wind_turbine",
     component: () => import("@/layouts/default/Default.vue"),
     children: [
