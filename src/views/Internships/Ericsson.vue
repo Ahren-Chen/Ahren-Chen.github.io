@@ -2,7 +2,7 @@
     <v-container class="fill-height">
       <v-responsive class="fill-height text-center">
   
-        <Banner :imagePath="bannerImgPath" />
+        <!--<Banner :imagePath="bannerImgPath" />-->
   
         <PageTitle :titleText="pageTitle" />
   
@@ -46,7 +46,6 @@
   import TwoColumnSummary from '@/components/TwoColumnSummary.vue'
   import Card from '@/components/Card.vue'
   import CardText from '@/components/CardText.vue'
-  import FigureText from '@/components/Subcomponents/FigureText.vue'
   
   // data
   const bannerImgPath = '/src/assets/Projects_Images/Wind_Turbine/banner.jpg'
