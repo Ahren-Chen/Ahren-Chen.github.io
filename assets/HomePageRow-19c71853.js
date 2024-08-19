@@ -1,0 +1,1 @@
+import{_ as t,C as o,D as s,E as a,N as r}from"./index-116b974c.js";import{b as n}from"./VCard-1ec29ebd.js";const c={name:"Row"};function l(e,p,f,i,_,m){return o(),s(n,{class:"py-5 px-6 mb-2 d-flex align-center justify-center bg-light-blue-lighten-2"},{default:a(()=>[r(e.$slots,"default")]),_:3})}const g=t(c,[["render",l]]);export{g as H};
