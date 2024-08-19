@@ -1,6 +1,6 @@
 <template>
     <v-col cols="4">
-        <v-card append-icon="mdi-open-in-new" class="mx-auto" :href="link" min-height="350"
+        <v-card append-icon="mdi-open-in-new" class="mx-auto" :to="link" min-height="350"
             :image="image" :color="color">
 
             <HomePageCardTitle :text = "title"/>
