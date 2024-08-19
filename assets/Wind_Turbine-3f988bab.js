@@ -1,4 +1,4 @@
-import{B as w,S as T,V as o,T as _,C as i,a as n}from"./CardText-610539fd.js";import{V as v,P as y,c as l}from"./VCard-1ec29ebd.js";import{F as r}from"./FigureText-2763884f.js";import{V as c,k as x}from"./index-37fbe7bd.js";import{I as k,C,D as I,E as t,m as e,O as s,F as d,M as u}from"./index-116b974c.js";import"./ssrBoot-3716da22.js";const j="Renewable Energy Challenge",D=`During my first year of university, I worked on a project that involved creating a 3D
+import{B as w,S as T,V as o,T as _,C as i,a as n}from"./CardText-e5676477.js";import{V as v,P as y,c as l}from"./VCard-36d137e7.js";import{F as r}from"./FigureText-695d4a76.js";import{V as c,k as x}from"./index-f1b8c507.js";import{I as k,C,D as I,E as t,m as e,O as s,F as d,M as u}from"./index-ef9cb0f5.js";import"./ssrBoot-68ec4ce3.js";const j="Renewable Energy Challenge",D=`During my first year of university, I worked on a project that involved creating a 3D
   model of a wind turbine blade and simulating its performance in a wind tunnel. The
   project was part of a renewable energy challenge that was hosted by the university.
 

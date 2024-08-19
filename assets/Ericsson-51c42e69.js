@@ -1,4 +1,4 @@
-import{B as T,S as d,V as a,T as _,C as o,a as n}from"./CardText-610539fd.js";import{V as h,P as I,c as l}from"./VCard-1ec29ebd.js";import{k as g}from"./index-37fbe7bd.js";import{I as C,C as E,D as w,E as t,m as e,O as r,F as i,M as m}from"./index-116b974c.js";import"./ssrBoot-3716da22.js";const P="Ericsson Indoor Planner",O=`After my third year of university, I was given the opportunity to work at Ericsson as a Software
+import{B as T,S as d,V as a,T as _,C as o,a as n}from"./CardText-e5676477.js";import{V as h,P as I,c as l}from"./VCard-36d137e7.js";import{k as g}from"./index-f1b8c507.js";import{I as C,C as E,D as w,E as t,m as e,O as r,F as i,M as m}from"./index-ef9cb0f5.js";import"./ssrBoot-68ec4ce3.js";const P="Ericsson Indoor Planner",O=`After my third year of university, I was given the opportunity to work at Ericsson as a Software
     Developer Intern for 16 months. I was part of the Indoor Planner team, which was responsible for
     developing a tool that would allow users to plan and optimize the layout of their indoor
     networks based on radio configurations, placements, operators, etc. My role was to develop new 
