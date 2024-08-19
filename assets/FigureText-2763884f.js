@@ -1,1 +1,0 @@
-import{_ as e,C as r,D as a,E as s,F as o,M as c}from"./index-116b974c.js";import{d as i}from"./VCard-1ec29ebd.js";const n={name:"FigureText",props:{text:{type:String,required:!0}}};function p(x,_,t,d,f,u){return r(),a(i,{class:"font-weight-light"},{default:s(()=>[o(c(t.text),1)]),_:1})}const m=e(n,[["render",p]]);export{m as F};
