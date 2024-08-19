@@ -14,10 +14,10 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'Deploy to GitHub Pages'
 
-# if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:<Ahren-Chen>/<Ahren-Chen>.github.io.git main
+# Push the build to the gh-pages branch of your GitHub repo
+git push -f https://github.com/Ahren-Chen/Ahren-Chen.github.io.git master:gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
