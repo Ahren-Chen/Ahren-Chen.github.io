@@ -64,7 +64,7 @@ import TwoColumnImage from '@/components/TwoColumnImage.vue'
 import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Tub/banner.avif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Tub/banner.avif', import.meta.url).href;
 const pageTitle = 'Hackathon: TUB'
 
 const technical_skills_items = [
@@ -89,7 +89,7 @@ const summaryText =
   and a search/scroll section for clubs. There were many more features planned, but we were unable
   to implement them within the limited time we had, such as admin privileges for certain users and
   announcement pages for each club.`
-const summaryImgPath = '/src/assets/Projects_Images/Tub/summary.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Tub/summary.png', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -101,8 +101,8 @@ const designProcessText1 =
   prevent bugs from occurring, which means that I was able to obtain a working understanding of
   MySQL during this project.`
 
-const LogIn = '/src/assets/Projects_Images/Tub/log_in.png'
-const SignUp = '/src/assets/Projects_Images/Tub/sign_up.png'
+const LogIn = new URL('@/assets/Projects_Images/Tub/log_in.png', import.meta.url).href;
+const SignUp = new URL('@/assets/Projects_Images/Tub/sign_up.png', import.meta.url).href;
 const LogInText = 'Log-In Page'
 const SignUpText = 'Sign-Up Page'
 
@@ -114,8 +114,8 @@ const designProcessText2 =
   learning experience for problem-solving as there was no guidance other than google and
   StackOverflow for any issues I encountered.`
 
-const AvailableClubs = '/src/assets/Projects_Images/Tub/available_club.png'
-const ClubCreation = '/src/assets/Projects_Images/Tub/club_creation.png'
+const AvailableClubs = new URL('@/assets/Projects_Images/Tub/available_club.png', import.meta.url).href;
+const ClubCreation = new URL('@/assets/Projects_Images/Tub/club_creation.png', import.meta.url).href;
 const AvailableClubsText = 'Available Clubs Page'
 const ClubCreationText = 'Club Creation Page'
 

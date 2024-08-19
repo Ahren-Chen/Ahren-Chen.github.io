@@ -2,7 +2,7 @@
     <v-container class="fill-height">
       <v-responsive class="fill-height text-center">
   
-        <!--<Banner :imagePath="bannerImgPath" />-->
+        <Banner :imagePath="bannerImgPath" />
   
         <PageTitle :titleText="pageTitle" />
   
@@ -48,7 +48,7 @@
   import CardText from '@/components/CardText.vue'
   
   // data
-  const bannerImgPath = '/src/assets/Projects_Images/Wind_Turbine/banner.jpg'
+  const bannerImgPath = new URL('@/assets/Projects_Images/Wind_Turbine/banner.jpg', import.meta.url).href;
   const pageTitle = 'Ericsson Indoor Planner'
   
   const technical_skills_items = [
@@ -74,7 +74,7 @@
     networks based on radio configurations, placements, operators, etc. My role was to develop new 
     features and maintain the existing codebase. THIS SECTION IS NOT COMPLETE. STILL PART
     OF THE INTERNSHIP SO I WILL ADD MORE INFORMATION ONCE I HAVE COMPLETED IT.`
-  const summaryImgPath = '/src/assets/Projects_Images/Wind_Turbine/summary_photo.jpg'
+  const summaryImgPath = new URL('@/assets/Projects_Images/Wind_Turbine/summary_photo.jpg', import.meta.url).href;
   
   const designProcessTitle = 'What I learned'
   const designProcessText1 =

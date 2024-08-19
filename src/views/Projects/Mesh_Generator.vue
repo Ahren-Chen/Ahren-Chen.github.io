@@ -70,7 +70,7 @@ import FigureText from '@/components/Subcomponents/FigureText.vue'
 import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Mesh_Generator/banner.avif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Mesh_Generator/banner.avif', import.meta.url).href;
 const pageTitle = 'Mesh Generator'
 
 const technical_skills_items = [
@@ -96,7 +96,7 @@ const summaryText =
     viewer which was all about displaying the mesh that was generated. Finally, the mesh details generator was all about
     adding on physical properties to the polygons that were generated. This included things like altitude, temperature,
     biomes, rivers, cities, roads, lakes, aquifers, and more.`
-const summaryImgPath = '/src/assets/Projects_Images/Mesh_Generator/summary.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Mesh_Generator/summary.png', import.meta.url).href;
 const summary_height = 500
 
 const designProcessTitle = 'Design Process'
@@ -109,7 +109,7 @@ const designProcessText1 =
     purposefully done to see how we would handle the situation. The professor wanted to mimic a real world scenario
     where we were working with a client who didn't know exactly what they wanted from the get go.`
 
-const Mesh = '/src/assets/Projects_Images/Mesh_Generator/mesh.png'
+const Mesh = new URL('@/assets/Projects_Images/Mesh_Generator/mesh.png', import.meta.url).href;
 const MeshText = 'Generated Mesh Polygon Example'
 
 const designProcessText2 =
@@ -121,9 +121,9 @@ const designProcessText2 =
     and elevation). The mesh details generator was the most challenging part of the project as it was all about working
     together with a group to create something that was cohesive and achievable within the time frame given.`
 
-const Rivers = '/src/assets/Projects_Images/Mesh_Generator/rivers.png'
+const Rivers = new URL('@/assets/Projects_Images/Mesh_Generator/rivers.png', import.meta.url).href;
 const RiversText = 'Map With Rivers Example'
-const Precipitation = '/src/assets/Projects_Images/Mesh_Generator/precipitation.png'
+const Precipitation = new URL('@/assets/Projects_Images/Mesh_Generator/precipitation.png', import.meta.url).href;
 const PrecipitationText = 'Precipitation View Example'
 
 const designProcessText3 =
@@ -133,7 +133,7 @@ const designProcessText3 =
     This added one more layer of complexity to the project since I had to take into account how certain 
     user input and randomization combinations would make some cities and roads impossible to build.`
 
-const Urbanization = '/src/assets/Projects_Images/Mesh_Generator/urbanization.png'
+const Urbanization = new URL('@/assets/Projects_Images/Mesh_Generator/urbanization.png', import.meta.url).href;
 const UrbanizationText = 'Final Example: Urbanization'
 
 const ConclusionTitle = 'Conclusion'

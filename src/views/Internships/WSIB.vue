@@ -50,7 +50,7 @@
   import CardText from '@/components/CardText.vue'
   
   // data
-  const bannerImgPath = '/src/assets/Internships_Images/WSIB/banner.png'
+  const bannerImgPath = new URL('@/assets/Internships_Images/WSIB/banner.png', import.meta.url).href;
   const pageTitle = 'Workplace Safety and Insurance Board (WSIB)'
   
   const technical_skills_items = [
@@ -74,7 +74,7 @@
     the necessary skills and qualifications to perform the work required. I also had the opportunity to organize
     meetings with stakeholders to discuss vendor performance and to identify areas for improvement. 
     `
-  const summaryImgPath = '/src/assets/Internships_Images/WSIB/summary.jpg'
+  const summaryImgPath = new URL('@/assets/Internships_Images/WSIB/summary.jpg', import.meta.url).href;
   
   const bodyTitle = 'What I learned'
   const bodyText1 =

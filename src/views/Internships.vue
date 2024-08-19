@@ -25,21 +25,21 @@
     {
       title: 'Ericsson',
       text: 'Software Developer Internship (16 months) (NOT COMPLETED)',
-      image: '/src/assets/Internships_Images/Ericsson/Ericsson.png',
+      image: new URL('@/assets/Internships_Images/Ericsson/Ericsson.png', import.meta.url).href,
       color: 'primary',
       link: '/internships/ericsson'
     },
     {
       title: 'WSIB',
       text: 'Operations Vendor Management Internship (4 months)',
-      image: '/src/assets/Internships_Images/WSIB/WSIB.png',
+      image: new URL('@/assets/Internships_Images/WSIB/WSIB.png', import.meta.url).href,
       color: 'primary',
       link: '/internships/wsib'
     },
     {
       title: 'YRDSB',
       text: 'IT Technical Support Internship (4 months)',
-      image: '/src/assets/Internships_Images/YRDSB/IT.png',
+      image: new URL('@/assets/Internships_Images/YRDSB/IT.png', import.meta.url).href,
       color: 'primary',
       link: '/internships/yrdsb'
     },

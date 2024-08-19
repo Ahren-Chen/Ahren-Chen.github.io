@@ -63,7 +63,7 @@ import TwoColumnImage from '@/components/TwoColumnImage.vue'
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Get_A_Grip/Get_A_Grip_banner.jpg'
+const bannerImgPath = new URL('@/assets/Projects_Images/Get_A_Grip/Get_A_Grip_banner.jpg', import.meta.url).href;
 const pageTitle = 'Get A Grip'
 
 const technical_skills_items = [
@@ -87,7 +87,7 @@ const summaryText =
   model of the container, and the other was in charge of writing the python code for the
   robotic arm.I was a part of the modeling team, and my objectives included minimizing
   material usage, securing the surgical tool, and facilitating sterilization.`
-const summaryImgPath = '/src/assets/Projects_Images/Get_A_Grip/summary.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Get_A_Grip/summary.png', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -97,8 +97,8 @@ const designProcessText1 =
   while being under 350 grams in weight. Our team was given an inventor model of the surgical 
   tool to secure and the autoclave our container needed to fit into.`
 
-const SurgicalTool = '/src/assets/Projects_Images/Get_A_Grip/surgical_tool.png'
-const Autoclave = '/src/assets/Projects_Images/Get_A_Grip/autoclave.png'
+const SurgicalTool = new URL('@/assets/Projects_Images/Get_A_Grip/surgical_tool.png', import.meta.url).href;
+const Autoclave = new URL('@/assets/Projects_Images/Get_A_Grip/autoclave.png', import.meta.url).href;
 const SurgicalToolText = 'Surgical Tool'
 const AutoclaveText = 'Autoclave'
 
@@ -108,8 +108,8 @@ const designProcessText2 =
   These prototypes varied from low-fidelity physical models to fully realized 
   models made in Autodesk with proper dimensions.`
 
-const PhysicalLowFidelity = '/src/assets/Projects_Images/Get_A_Grip/physical_low_fidelity.png'
-const FinalizedInventor = '/src/assets/Projects_Images/Get_A_Grip/finalized_inventor.png'
+const PhysicalLowFidelity = new URL('@/assets/Projects_Images/Get_A_Grip/physical_low_fidelity.png', import.meta.url).href;
+const FinalizedInventor = new URL('@/assets/Projects_Images/Get_A_Grip/finalized_inventor.png', import.meta.url).href;
 const PhysicalLowFidelityText = 'Physical Low Fidelity'
 const FinalizedInventorText = 'Finalized Inventor'
 
@@ -123,7 +123,7 @@ const designProcessText3 =
   through. As my final model was finalized, I got the Gcode using PrusaSlicer to print a 
   high-fidelity physical version of the model.`
 
-const PrintedModel = '/src/assets/Projects_Images/Get_A_Grip/3D_printed_model.png'
+const PrintedModel = new URL('@/assets/Projects_Images/Get_A_Grip/3D_printed_model.png', import.meta.url).href;
 const PrintedModelText = '3D Printed Model'
 
 const ConclusionTitle = 'Conclusion'

@@ -47,7 +47,7 @@ import CardText from '@/components/CardText.vue'
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Internships_Images/YRDSB/banner.avif'
+const bannerImgPath = new URL('@/assets/Internships_Images/YRDSB/banner.avif', import.meta.url).href;
 const pageTitle = 'IT Technical Support Co-op'
 
 const technical_skills_items = [
@@ -72,7 +72,7 @@ const summaryText =
     to experience working with servers and networks briefly with others. The vast majority of issues had 
     to do with hardware issues, so replacing/fixing the hardware was the bulk of my experience, but I also 
     got to experience imaging and manipulating BIOS settings.`
-const summaryImgPath = '/src/assets/Internships_Images/YRDSB/summary_photo.jpg'
+const summaryImgPath = new URL('@/assets/Internships_Images/YRDSB/summary_photo.jpg', import.meta.url).href;
 
 const bodyTitle = 'What I learned'
 const bodyText1 =
@@ -85,7 +85,7 @@ const bodyText1 =
     left to my own devices once the task was assigned to me, so I had the chance to explore different 
     technologies on my own.`
 
-const Tech = '/src/assets/Internships_Images/YRDSB/tech.jpg'
+const Tech = new URL('@/assets/Internships_Images/YRDSB/tech.jpg', import.meta.url).href;
 const TechText = 'Me and my teammate with all the laptops we fixed'
 
 const bodyText2 =
@@ -96,7 +96,7 @@ const bodyText2 =
     to put my understanding of their concepts into practical use. I am forever grateful that I got to 
     meet such amazing people and learn more than I could have imagined from them.`
 
-const School = '/src/assets/Internships_Images/YRDSB/school.jpg'
+const School = new URL('@/assets/Internships_Images/YRDSB/school.jpg', import.meta.url).href;
 const SchoolText = 'The School Building'
 
 </script>

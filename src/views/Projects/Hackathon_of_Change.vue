@@ -70,7 +70,7 @@ import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vu
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Hackathon_Of_Change/banner.avif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Hackathon_Of_Change/banner.avif', import.meta.url).href;
 const pageTitle = 'DeltaHacks9: Hackathon Of Change'
 
 const technical_skills_items = [
@@ -94,7 +94,7 @@ const summaryText =
     search specifically for local businesses in their area and allow filtering by food, location, and prices.
     I had the opportunity to work on the back-end of the project, where I used Django to create the database and
     the API that would be used by the front-end.`
-const summaryImgPath = '/src/assets/Projects_Images/Hackathon_Of_Change/search_page.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Hackathon_Of_Change/search_page.png', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -104,7 +104,7 @@ const designProcessText1 =
     our first time working together, we decided to split the work into front-end, back-end, and design. I was excited to
     work on the back-end of the project, where I learned how to use Django and work with calling external APIs for the first time.`
 
-const landingPage = '/src/assets/Projects_Images/Hackathon_Of_Change/landing_page.png'
+const landingPage = new URL('@/assets/Projects_Images/Hackathon_Of_Change/landing_page.png', import.meta.url).href;
 const landingPageText = 'Landing Page'
 
 const designProcessText2 =
@@ -114,7 +114,7 @@ const designProcessText2 =
     only local businesses and filter by food type, location, and prices. With this in mind, we chose an MVP structure and 
     hard coded some chain resturants to filter out of search results which could be improved in the future.`
 
-const searchResults = '/src/assets/Projects_Images/Hackathon_Of_Change/search_results.png'
+const searchResults = new URL('@/assets/Projects_Images/Hackathon_Of_Change/search_results.png', import.meta.url).href;
 const searchResultsText = 'Search Results Example'
 
 const ConclusionTitle = 'Conclusion'

@@ -63,7 +63,7 @@ import TwoColumnImage from '@/components/TwoColumnImage.vue'
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Power_In_Community/community_banner.jfif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Power_In_Community/community_banner.jfif', import.meta.url).href;
 const pageTitle = 'Power In The Community'
 
 const technical_skills_items = [
@@ -92,7 +92,7 @@ const summaryText =
   We decided to address this issue and ultimately designed a multifunctional board game
   device: Gamehub. Gamehub allows him to manipulate/move game pieces and roll dice without
   having to reach for them.`
-const summaryImgPath = '/src/assets/Projects_Images/Power_In_Community/gamehub.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Power_In_Community/gamehub.png', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -108,8 +108,8 @@ const designProcessText1 =
   conclusion of our initial discussions, we each set off to develop sketches/inventor models of
   our ideas.`
 
-const InventorModel = '/src/assets/Projects_Images/Power_In_Community/community_inventor.png'
-const Multiview = '/src/assets/Projects_Images/Power_In_Community/community_multiview.png'
+const InventorModel = new URL('@/assets/Projects_Images/Power_In_Community/community_inventor.png', import.meta.url).href;
+const Multiview = new URL('@/assets/Projects_Images/Power_In_Community/community_multiview.png', import.meta.url).href;
 const InventorModelText = 'Inventor Model'
 const MultiviewText = 'Multiview Sketch of Dice Roller'
 
@@ -120,7 +120,7 @@ const designProcessText2 =
   prototype, it fulfilled the objectives set out for the dice roller, and our team created our
   physical prototypes after selecting the best design for each component.`
 
-const Prototype = '/src/assets/Projects_Images/Power_In_Community/prototype.png'
+const Prototype = new URL('@/assets/Projects_Images/Power_In_Community/prototype.png', import.meta.url).href;
 const PrototypeText = 'Low-Fidelity Prototype'
 
 const designProcessText3 =

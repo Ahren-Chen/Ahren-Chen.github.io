@@ -57,7 +57,7 @@ import CardText from '@/components/CardText.vue'
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Wind_Turbine/banner.jpg'
+const bannerImgPath = new URL('@/assets/Projects_Images/Wind_Turbine/banner.jpg', import.meta.url).href;
 const pageTitle = 'Renewable Energy Challenge'
 
 const technical_skills_items = [
@@ -81,7 +81,7 @@ const summaryText =
   Autodesk Inventor and to analyze the stress and strain on the blade using Granta Design.
   I also worked on the project report and presentation, which involved using Microsoft
   Office to create the necessary documents.`
-const summaryImgPath = '/src/assets/Projects_Images/Wind_Turbine/summary_photo.jpg'
+const summaryImgPath = new URL('@/assets/Projects_Images/Wind_Turbine/summary_photo.jpg', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -94,7 +94,7 @@ const designProcessText1 =
   assignment. With the material selected, we began to model our turbine blade using Autodesk
   Inventor with a set of given dimensions.`
 
-const TurbineBlade = '/src/assets/Projects_Images/Wind_Turbine/turbine_blade.jpg'
+const TurbineBlade = new URL('@/assets/Projects_Images/Wind_Turbine/turbine_blade.jpg', import.meta.url).href;
 const TurbineBladeText = 'Initial Wind Turbine Blade'
 
 const designProcessText2 =
@@ -103,7 +103,7 @@ const designProcessText2 =
   we found that a thickness of 24.6 mm would fulfill the requirements while not wasting any
   additional material.`
 
-const TurbineBladeDeflection = '/src/assets/Projects_Images/Wind_Turbine/turbine_blade_deflection.jpg'
+const TurbineBladeDeflection = new URL('@/assets/Projects_Images/Wind_Turbine/turbine_blade_deflection.jpg', import.meta.url).href;
 const TurbineBladeDeflectionText = 'Turbine Blade Simulation'
 
 const ConclusionTitle = 'Conclusion'

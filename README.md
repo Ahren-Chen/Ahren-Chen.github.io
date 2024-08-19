@@ -97,6 +97,14 @@ pnpm lint
 bun run lint
 ```
 
+### To test production build locally
+```
+npm run build
+
+serve -s dist
+
+NOTE: make sure you already have npm install -g serve
+```
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).

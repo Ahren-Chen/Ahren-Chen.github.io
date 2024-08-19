@@ -70,7 +70,7 @@ import FigureText from '@/components/Subcomponents/FigureText.vue'
 import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Skybox/banner.avif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Skybox/banner.avif', import.meta.url).href;
 const pageTitle = 'Skybox'
 
 const technical_skills_items = [
@@ -92,7 +92,7 @@ const summaryText =
   Once you press the play button, the physics engine will start to simulate the passage of time in
   this universe and what would happen with these conditions. You can also rotate and move the
   camera to better observe the simulated environment from different angles.`
-const summaryImgPath = '/src/assets/Projects_Images/Skybox/summary.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Skybox/summary.png', import.meta.url).href;
 const height = 365
 
 const designProcessTitle = 'Design Process'
@@ -109,7 +109,7 @@ const designProcessText2 =
   of everyone's roles and positions keenly but worked together when difficulties appeared, so I am
   also familiar with the structure of all the back-end functions.`
 
-const LoadedSample = '/src/assets/Projects_Images/Skybox/fully_loaded.png'
+const LoadedSample = new URL('@/assets/Projects_Images/Skybox/fully_loaded.png', import.meta.url).href;
 const LoadedSampleText = 'Automatically Loaded Sample'
 
 const designProcessText3 =

@@ -71,7 +71,7 @@ import FigureText from '@/components/Subcomponents/FigureText.vue'
 import SocialMediaButtons from '@/components/Subcomponents/SocialMediaButtons.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Chat_Application/banner.avif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Chat_Application/banner.avif', import.meta.url).href;
 const pageTitle = 'Secure Chat Application'
 
 const technical_skills_items = [
@@ -95,7 +95,7 @@ const summaryText =
     be able to authenticate users, send messages, store chat logs, and utilize a mediated authentication protocol. The
     project had to be done in groups of 5 and we had 1 week to actually implement our ideas and build the app. We were
     given the choice of using any programming language we wanted along with any additional features we wanted to add.`
-const summaryImgPath = '/src/assets/Projects_Images/Chat_Application/login.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Chat_Application/login.png', import.meta.url).href;
 
 const designProcessTitle = 'Design Process'
 const designProcessText1 =
@@ -108,8 +108,8 @@ const designProcessText1 =
     to the user based on inputs and events, we thought that MVC would be the best choice as it separates the concerns of
     the app into 3 main parts: the model, the view, and the controller.`
 
-const HomePage = '/src/assets/Projects_Images/Chat_Application/home.png'
-const AccountPage = '/src/assets/Projects_Images/Chat_Application/account.png'
+const HomePage = new URL('@/assets/Projects_Images/Chat_Application/home.png', import.meta.url).href;
+const AccountPage = new URL('@/assets/Projects_Images/Chat_Application/account.png', import.meta.url).href;
 const HomePageText = 'Home Page'
 const AccountPageText = 'Account Page'
 
@@ -126,8 +126,8 @@ const designProcessText2 =
     Along with Kerbros authentication, the account manager would be strictly offline and accessible only by the server to
     ensure no security vulnerabilities.`
 
-const MessagePage = '/src/assets/Projects_Images/Chat_Application/message.png'
-const SurveyPage = '/src/assets/Projects_Images/Chat_Application/survey.png'
+const MessagePage = new URL('@/assets/Projects_Images/Chat_Application/message.png', import.meta.url).href;
+const SurveyPage = new URL('@/assets/Projects_Images/Chat_Application/survey.png', import.meta.url).href;
 const MessagePageText = 'Message Page'
 const SurveyPageText = 'Survey Page'
 
@@ -139,7 +139,7 @@ const designProcessText3 =
     Although these additional features are not fully functional, they were meant to be a proof of concept to show that we
     could implement them if we had more time, or as future updates.`
 
-const CallPage = '/src/assets/Projects_Images/Chat_Application/call.png'
+const CallPage = new URL('@/assets/Projects_Images/Chat_Application/call.png', import.meta.url).href;
 const CallPageText = 'Call Page'
 
 const ConclusionTitle = 'Conclusion'

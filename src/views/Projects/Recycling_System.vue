@@ -66,7 +66,7 @@ import CardText from '@/components/CardText.vue'
 import FigureText from '@/components/Subcomponents/FigureText.vue'
 
 // data
-const bannerImgPath = '/src/assets/Projects_Images/Recycling_System/banner.jfif'
+const bannerImgPath = new URL('@/assets/Projects_Images/Recycling_System/banner.jfif', import.meta.url).href;
 const pageTitle = 'Revenge of the Recycling System'
 
 const technical_skills_items = [
@@ -93,7 +93,7 @@ const summaryText =
   using the q-bot and q-arm in an endless loop. I was on the computing sub-team and my objectives
   included writing an efficient, clear, and never-ending loop to transfer the correct bottles from
   the sorting station to the correct bins and disposing of the bottles.`
-const summaryImgPath = '/src/assets/Projects_Images/Recycling_System/starting_virtual_environment.png'
+const summaryImgPath = new URL('@/assets/Projects_Images/Recycling_System/starting_virtual_environment.png', import.meta.url).href;
 const height = '310'
 
 const designProcessTitle = 'Design Process'
@@ -107,7 +107,7 @@ const designProcessText1 =
   q-bot cannot exceed 90 grams. With these objectives and constraints in mind, I started to work
   on the pseudocode to establish a clear plan of action.`
 
-const bottle_properties = '/src/assets/Projects_Images/Recycling_System/bottle_properties.png'
+const bottle_properties = new URL('@/assets/Projects_Images/Recycling_System/bottle_properties.png', import.meta.url).href;
 const bottle_propertiesText = 'Table of all Bottle Properties'
 
 const designProcessText2 =
@@ -117,7 +117,7 @@ const designProcessText2 =
   correct bin. The ultrasonic sensor would indicate how far the q-bot was from the bin, and this
   would determine when the q-bot chooses to unload the bottles.`
 
-const qBot_unloading = '/src/assets/Projects_Images/Recycling_System/Q-bot_unloading.png'
+const qBot_unloading = new URL('@/assets/Projects_Images/Recycling_System/Q-bot_unloading.png', import.meta.url).href;
 const qBot_unloading_text = 'Q-bot Unloading the Bottles'
 
 const designProcessText3 =
@@ -130,7 +130,7 @@ const designProcessText3 =
   to the code, the method that yielded the most reliable results was to move and rotate the bot in
   small increments to constantly adjust itself while following the line.`
 
-const loading_bottle = '/src/assets/Projects_Images/Recycling_System/loading_bottle.png'
+const loading_bottle = new URL('@/assets/Projects_Images/Recycling_System/loading_bottle.png', import.meta.url).href;
 const loading_bottleText = 'Loading a Bottle onto the Q-bot'
 
 const ConclusionTitle = 'Conclusion'
