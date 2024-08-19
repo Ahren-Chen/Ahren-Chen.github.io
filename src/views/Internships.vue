@@ -24,7 +24,7 @@
   const projects = [
     {
       title: 'Ericsson',
-      text: 'Software Developer Internship (16 months)',
+      text: 'Software Developer Internship (16 months) (NOT COMPLETED)',
       image: '/src/assets/Internships_Images/Ericsson/Ericsson.png',
       color: 'primary',
       link: '/internships/ericsson'

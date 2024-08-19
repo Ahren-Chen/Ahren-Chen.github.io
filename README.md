@@ -12,8 +12,8 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 | 4 | Set up navigation between pages using page specific buttons | Done |
 | 5 | Fill in content for Home Page | Done |
 | 6 | Fill in information for About Page | Done |
-| 7 | Fill in information about experience | In Progress |
-| 8 | Flesh things out and make look decent | In Progress |
+| 7 | Fill in information about experience | Done |
+| 8 | Flesh things out and make look decent | Done |
 
 ## Logbook
 - April 27: Finished setting up the basic home page and listed features that are in plan
@@ -31,7 +31,7 @@ Hello, this is the README doc for the personal website made using Vue. This webs
 - July 28: Completed Mesh Generator page
 - August 3: Finished SecureChatApplication page, next up is putting in the intern experiences.
 - August 17: Started setup of the Internship tab
-- August 18: Set up the YRDSB Page, finished WSIB page
+- August 18: Set up the YRDSB Page, finished WSIB page, finished template for Ericsson page. Ready for deployment
 
 ## Project setup
 

@@ -213,7 +213,7 @@ const routes = [
     ],
   },
   {
-    path: "/internships/ericson",
+    path: "/internships/ericsson",
     component: () => import("@/layouts/default/Default.vue"),
     children: [
       {
